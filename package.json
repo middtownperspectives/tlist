@@ -1,0 +1,29 @@
+{
+  "name": "tlist",
+  "version": "1.0.0",
+  "description": "AAU WNM617 JQuery Mobile Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tlist-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/middtownperspectives/tlist.git"
+  },
+  "author": "Aaron Middleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/middtownperspectives/tlist/issues"
+  },
+  "homepage": "https://github.com/middtownperspectives/tlist#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^1.5.1"
+  },
+  "dependencies": {
+    "static-server": "^2.0.0",
+    "sass": "^1.19.0"
+  }
+}
