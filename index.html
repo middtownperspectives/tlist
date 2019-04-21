@@ -4,20 +4,451 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="assets/img/Tlist-Icon-png.png" type="image/x-icon">
     <title>TList</title>
 </head>
 <body>
 
-<h1>T-List</h1>
+    <!-- page one ... home-->
+    <div data-role="page" id="home">
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#home">
+                <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon"><span class="sr-only">(current)</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contribute">Contribute</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#all-teas">Teas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                </ul>
+            </div>
+        </nav>   
+ 
+        <section class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">T-List</h1>
+                <p class="lead">Home page. Where you will get more information about us, what we do, how we do!</p>
+            </div>
+        </section>
 
+        <!-- //welcome section -->
+        <section class="welcome-section">
+            <article class="welcome">
+                <h2>welcome</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </article>
+
+            <article class="about">
+                <h2>about</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </article>
+        </section>
+
+        <!-- popular teas -->
+        <section class="popular-tea-area">
+            <div class="tea-cards">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tea-cards">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">aaronmiddleton</span>
+            </div>
+        </footer>
+    </div>
+    <!-- End page one ... home-->
+
+    <!-- page two all teas -->
+        <div data-role="page" id="all-teas">
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#home">
+                    <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contribute">Contribute</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#all-teas">Teas<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>   
+            <section class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">All Teas</h1>
+                    <p class="lead">A list of all available teas.</p>
+                </div>
+            </section>
+
+            <!-- popular teas -->
+            <section class="popular-tea-area">
+                <div class="tea-row">
+                <div class="tea-cards">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea-cards">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="tea-row">
+                <div class="tea-cards">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea-cards">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <span class="text-muted">aaronmiddleton</span>
+                </div>
+            </footer>
+        </div>
+        <!-- end page two all teas -->
+
+        <!-- page three contribute -->
+        <div data-role="page" id="contribute">
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#home">
+                    <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contribute">Contribute <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#all-teas">Teas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>   
+            <section class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Contribute</h1>
+                    <p class="lead">Contribute your custom tea to Tlist.</p>
+                </div>
+            </section>
+
+            <!-- contribution form -->
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputCreatorName">Creator Name</label>
+                    <input type="text" class="form-control" id="inputCreatorName">
+                </div>
+                <div class="form-group">
+                    <label for="uploadImage">Image</label>
+                    <input type="text" class="form-control" id="uploadImage">
+                </div>
+                <div class="form-group">
+                    <label for="recipeTitle">Recipe Title</label>
+                    <input type="text" class="form-control" id="recipeTitle">
+                </div>
+                <div class="form-group">
+                    <label for="inputDescription">Description</label>
+                    <textarea class="form-control" id="inputDescription" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="inputDirections">Input Directions</label>
+                    <textarea class="form-control" id="inputDirections" rows="3"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+   
+            <footer class="footer">
+                <div class="container">
+                    <span class="text-muted">aaronmiddleton</span>
+                </div>
+            </footer>
+        </div>
+        <!-- end page three contribute -->
+
+        <!-- page three contribute -->
+        <div data-role="page" id="contribute">
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#home">
+                        <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contribute">Contribute <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#all-teas">Teas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>   
+            <section class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Contribute</h1>
+                    <p class="lead">Contribute your custom tea to Tlist.</p>
+                </div>
+            </section>
+
+            <!-- contribution form -->
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputCreatorName">Creator Name</label>
+                    <input type="text" class="form-control" id="inputCreatorName">
+                </div>
+                <div class="form-group">
+                    <label for="uploadImage">Image</label>
+                    <input type="text" class="form-control" id="uploadImage">
+                </div>
+                <div class="form-group">
+                    <label for="recipeTitle">Recipe Title</label>
+                    <input type="text" class="form-control" id="recipeTitle">
+                </div>
+                <div class="form-group">
+                    <label for="inputDescription">Description</label>
+                    <textarea class="form-control" id="inputDescription" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="inputDirections">Input Directions</label>
+                    <textarea class="form-control" id="inputDirections" rows="3"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    
+            <footer class="footer">
+                <div class="container">
+                    <span class="text-muted">aaronmiddleton</span>
+                </div>
+            </footer>
+        </div>
+        <!-- end page three contribute -->
+        <!-- page three contribute -->
+        <div data-role="page" id="faq">
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#home">
+                        <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contribute">Contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#all-teas">Teas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#faq">FAQ <span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>   
+            <section class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">FAQ</h1>
+                    <p class="lead">Some frequently asked questions.</p>
+                </div>
+            </section>
+
+            <!-- faq area -->
+            <section class="faq-area">
+                <div class="faqs">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                        <li class="list-group-item">
+                            <label for="question-one">
+                                question 1
+                            </label>
+                                Cras justo odio
+                        </li>
+                    </ul>
+                </div>  
+            </section>
+    
+            <footer class="footer">
+                <div class="container">
+                    <span class="text-muted">aaronmiddleton</span>
+                </div>
+            </footer>
+        </div>
+        <!-- end page three contribute -->
+    
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script src="./dist/js/main.js"></script>
-<script src="http://localhost:port35729/livereload.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/touch-punch.js"></script>
+<script src="./js/main.js"></script>
 
 </body>
 </html>

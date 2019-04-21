@@ -1,0 +1,53 @@
+body {
+    height: 90vh;
+}
+article,
+.faq-area {
+    padding: 1%;
+}
+.faq-area {
+    margin: 5% auto;
+}
+
+form {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popular-tea-area {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+    justify-content: center;
+}
+
+.tea-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+.footer {
+    height: 5vh;
+    background-color: grey;
+}
+
+    @media only screen and (max-width: 37.5rem) {
+    .popular-tea-area ,
+    .welcome-section {
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 70.25rem) {
+    .popular-tea-area {
+        flex-direction: column;
+    }
+  }
