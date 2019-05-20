@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/sanitize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="assets/img/Tlist-Icon-png.png" type="image/x-icon">
@@ -17,33 +14,11 @@
 
     <!-- page one ... home-->
     <div data-role="page" id="home">
-        <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#home">
-                <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon"><span class="sr-only">(current)</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#contribute">Contribute</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#all-teas">Teas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#faq">FAQ</a>
-                </li>
-                </ul>
-            </div>
-        </nav>   
- 
-        <section class="jumbotron jumbotron-fluid">
+
+        <!-- jumbotron -->
+        <section class="home-page jumbotron">
             <div class="container">
-                <h1 class="display-4">T-List</h1>
+                <h1 class="display-txt">T-List</h1>
                 <p class="lead">Home page. Where you will get more information about us, what we do, how we do!</p>
             </div>
         </section>
@@ -52,89 +27,75 @@
         <section class="welcome-section">
             <article class="welcome">
                 <h2>welcome</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <p>T-list (tea list) is here for your tea and coffee custom recipe consumption, creation and promotion.</p>
+                <p>We pride ourselves as the one stop expert on all things tea and coffee. </p>
             </article>
 
             <article class="about">
                 <h2>about</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <p>With supreme good fortune, we have progressed—constantly enriching people’s lives through the experience of premium teas, education and innovation. Our award-winning packaging includes teas and herbs available in specially designed air-tight, light-resistant tins containing either full-leaf teas and herbs or our signature round, unbleached tea bags, free of unnecessary envelopes, strings, tags or staples. Decaffeinated teas varieties are also available. All of our teas are Certified Gluten-Free by the Gluten-Free Certification Organizatiomn.</p>
+                <p>A socially and environmentally responsible business, T-List is dedicated to sharing our prosperity by developing products to support worthy organizations, including Action Against Hunger and the Whole Planet Foundation. We are also a member of The Ethical Tea Partnership.</p>
             </article>
         </section>
 
-        <!-- popular teas -->
-        <section class="popular-tea-area">
-            <div class="tea-cards">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
+            <!-- popular teas -->
+            <section class="popular-tea-area">
+                <div class="tea-cards">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/beverage-chiang-mai-cup-1581484.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/beverage-chiang-mai-cup-1581484.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
+                <div class="tea-cards">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/beverage-chiang-mai-cup-1581484.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/beverage-chiang-mai-cup-1581484.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="tea-cards">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <footer class="footer">
-            <div class="container">
-                <span class="text-muted">aaronmiddleton</span>
-            </div>
-        </footer>
-    </div>
-    <!-- End page one ... home-->
-
-    <!-- page two all teas -->
-        <div data-role="page" id="all-teas">
             <!-- navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#home">
-                    <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contribute">Contribute</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#all-teas">Teas<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>   
-            <section class="jumbotron jumbotron-fluid">
+            <div data-role="navbar">
+                <ul>
+                <li><a class="ui-btn-active" href="#home"><img src="./assets/img/Tlist-Icon-png.png" width="16" height="16" alt="tlist icon"></a></li>
+                <li><a href="#contribute">Contribute</a></li>
+                <li><a href="#all-teas">Teas</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#local-gmap">Locals</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+            
+        </div>
+        <!-- End page one ... home-->
+
+
+        <!-- page two all teas -->
+        <div data-role="page" id="all-teas">
+ 
+            <section class="jumbotron">
                 <div class="container">
-                    <h1 class="display-4">All Teas</h1>
+                    <h1 class="display-txt">All Teas</h1>
                     <p class="lead">A list of all available teas.</p>
                 </div>
             </section>
@@ -144,32 +105,33 @@
                 <div class="tea-row">
                 <div class="tea-cards">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/milk-oolong-full.jpg" alt="milk oolong">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Cup of Abundance - This delightful, hand-processed green oolong is grown high in the Fujian mountains in China. Famous for its 'milky' taste and silky texture, the large, tightly-rolled leaves have the alluring fragrance of sweet cream and pineapple. The flavor is smooth with light, orchid notes. Great for multiple infusions.</p>
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <img class="card-img-top" src="assets/img/jasmine-jazz-green-tea.jpg" alt="jazmine jazz tea">
+                        <div class="card-body"> 
+                            <p class="card-text"> Yin Hao Jasmine blossom tea is recognized as the finest in the world brewing a bright cup with clean, sharp flavors. Sweet China leaves are married with fragrant flowers seven times during the evening when the jasmine blossoms open. </p>
+                            <p class="card-text">Green tea contains less than a quarter the amount of caffeine per cup than in a similar-sized cup of coffee</p>
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
                 </div>
                 <div class="tea-cards">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/ti-kuan-yin-full.jpg" alt="Ti Kuan Yin Full Leaf">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Strengthen the Spirit Tea- Famous oolong from the Fujian province in China is known for its fresh, orchid flavor & clean finish. Large, iron-colored leaves can be infused many times over.</p>
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/hibiscus-pineapple-lychee-full.jpg" alt="hibiscus pineapple lychee full">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Luscious pineapple and delicately sweet lychee - a small, round, creamy white fruit native to China - both sing with the flavors of warm Asian islands. They harmonize beautifully with the natural flavor of Nigerian hibiscus.</p>
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
@@ -179,9 +141,11 @@
                 <div class="tea-row">
                 <div class="tea-cards">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/silver-rain-white-full.jpg" alt="silver rain white full">
                         <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"> Above the Cloud Tea - Classified as rarest of all teas, this high grown white China tea is plucked in spring right before the leaf opens. White, downy buds are quickly air-dried, resulting in a low-caffeine tea. </p>
+                        <p>Authentic 100% White Tea only grows in the majestic mountains of China's Fujian Province. Tender white downy buds are hand-plucked just two days of the year, right before the leaf opens. With small yields and high demands, it remains one of the world's most rare teas. We are honored to offer you this season's harvest featuring delicate flavor notes and a sweet, lingering finish. White tea is the least processed of all tea varietals and retains more of its antioxidants, known as polyphenols. Discover tea in its most natural state and raise a cup to good health.</p>
+                                
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
@@ -195,55 +159,36 @@
                 </div>
                 <div class="tea-cards">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                        </div>
+                        <img class="card-img-top" src="assets/img/Tlist-Icon-png.png" alt="tlist logo">
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://www.fillmurray.com/640/360" alt="Card image cap">
+                        <img class="card-img-top" src="assets/img/celebration-tea-full.jpg" alt="celebration tea">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">A Cup of Celebration - We created this elegant blend in honor of our 20th anniversary. Ceylon black tea leaves from the Court Lodge Estate in Nuwara Eliya on the island of Sri Lanka, along with full tea blossoms and white wine grapes from the Orange River Vineyard in South Africa, create an exquisite, light-colored cup with a fruity, floral profile. Infused with the essence of champagne, this blend is a true cup of celebration.</p>
                             <a href="#" class="card-link">Card link</a>
                         </div>
                     </div>
                 </div>
                 </div>
             </section>
-            <footer class="footer">
-                <div class="container">
-                    <span class="text-muted">aaronmiddleton</span>
-                </div>
-            </footer>
+
+            <!-- navigation -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home"><img src="./assets/img/Tlist-Icon-png.png" width="16" height="16" alt="tlist icon"></a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+                    <li><a class="ui-btn-active"  href="#all-teas">Teas</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#local-gmap">Locals</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
         </div>
         <!-- end page two all teas -->
 
         <!-- page three contribute -->
         <div data-role="page" id="contribute">
-            <!-- navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#home">
-                    <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#contribute">Contribute <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#all-teas">Teas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>   
+
             <section class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h1 class="display-4">Contribute</h1>
@@ -280,112 +225,28 @@
                     </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-   
-            <footer class="footer">
-                <div class="container">
-                    <span class="text-muted">aaronmiddleton</span>
-                </div>
-            </footer>
-        </div>
-        <!-- end page three contribute -->
 
-        <!-- page three contribute -->
-        <div data-role="page" id="contribute">
             <!-- navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#home">
-                        <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
-                    </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#contribute">Contribute <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#all-teas">Teas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>   
-            <section class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Contribute</h1>
-                    <p class="lead">Contribute your custom tea to Tlist.</p>
-                </div>
-            </section>
-
-            <!-- contribution form -->
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="inputCreatorName">Creator Name</label>
-                    <input type="text" class="form-control" id="inputCreatorName">
-                </div>
-                <div class="form-group">
-                    <label for="uploadImage">Image</label>
-                    <input type="text" class="form-control" id="uploadImage">
-                </div>
-                <div class="form-group">
-                    <label for="recipeTitle">Recipe Title</label>
-                    <input type="text" class="form-control" id="recipeTitle">
-                </div>
-                <div class="form-group">
-                    <label for="inputDescription">Description</label>
-                    <textarea class="form-control" id="inputDescription" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="inputDirections">Input Directions</label>
-                    <textarea class="form-control" id="inputDirections" rows="3"></textarea>
-                    </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-    
-            <footer class="footer">
-                <div class="container">
-                    <span class="text-muted">aaronmiddleton</span>
-                </div>
-            </footer>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home"><img src="./assets/img/Tlist-Icon-png.png" width="16" height="16" alt="tlist icon"></a></li>
+                    <li><a class="ui-btn-active" href="#contribute">Contribute</a></li>
+                    <li><a href="#all-teas">Teas</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#local-gmap">Locals</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+            
         </div>
         <!-- end page three contribute -->
-        <!-- page three contribute -->
+
+        <!-- page four faqs -->
         <div data-role="page" id="faq">
-            <!-- navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#home">
-                        <img src="./assets/img/Tlist-Icon-png.png" width="30" height="30" alt="tlist icon">
-                    </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contribute">Contribute</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#all-teas">Teas</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#faq">FAQ <span class="sr-only">(current)</span></a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>   
-            <section class="jumbotron jumbotron-fluid">
+  
+            <section class="jumbotron">
                 <div class="container">
-                    <h1 class="display-4">FAQ</h1>
+                    <h1 class="display-txt">FAQ</h1>
                     <p class="lead">Some frequently asked questions.</p>
                 </div>
             </section>
@@ -395,60 +256,102 @@
                 <div class="faqs">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
+                            <label for="question-one"> What are the Health Benefits of Tea? </label>
+                                <p>Green tea, black tea, white tea, and oolong tea all have antioxidants.</p>
+                                <p>These antioxidants are polyphenols, specifically catechins. Studies from institutes like Purdue, Linus Pauling,
+                                    Harvard and the Medical College of Wisconsin have shown a variety of benefits from drinking tea – greater immunity,
+                                    improved cognitive functions, a decreased risk of cardiovascular problems, less fatigue, lower blood pressure, a slowing of
+                                    the aging process, and reduced stress. Recent research from Shandong University in China concluded that green tea may even help
+                                    ease depression.</p>
                         </li>
-                        <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
+                        <li class="list-group-item"> 
+                            <label for="question-one"> Am I ever able to speak to a tea expert?' </label>
+                                <p>The T-List's customer service representatives are available Teusday-Thursday from 10am to 2pm (Mountain Time).</p>
+                                <p>Hit us up on Twitter or Instagram for other communications!</p>
                         </li>
-                        <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
-                        </li>
-                        <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
-                        </li>
-                        <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
-                        </li>
-                        <li class="list-group-item">
-                            <label for="question-one">
-                                question 1
-                            </label>
-                                Cras justo odio
+                        <li class="list-group-item"> 
+                            <label for="question-one"> <p>Where are your Teas sourced?</p> </label>
+                                <p>The Caribean and the rural providences of Japan and India.</p>
                         </li>
                     </ul>
                 </div>  
             </section>
-    
-            <footer class="footer">
-                <div class="container">
-                    <span class="text-muted">aaronmiddleton</span>
-                </div>
-            </footer>
+
+        <!-- navigation -->
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home"><img src="./assets/img/Tlist-Icon-png.png" width="16" height="16" alt="tlist icon"></a></li>
+                <li><a href="#contribute">Contribute</a></li>
+                <li><a href="#all-teas">Teas</a></li>
+                <li><a class="ui-btn-active" href="#faq">FAQ</a></li>
+                <li><a href="#local-gmap">Locals</a></li>
+            </ul>
         </div>
-        <!-- end page three contribute -->
-    
+        <!-- /navbar -->
+        
+        </div>
+        <!-- end page faqs -->
+
+        <!--google map of local tea shops -->
+        <div data-role="page" id="local-gmap">
+
+            <section class="jumbotron">
+                <div class="container">
+                    <h1 class="display-txt">FAQ</h1>
+                    <p class="lead">Some frequently asked questions.</p>
+                </div>
+            </section>
+            <section>
+                <div class="map"></div>
+            </section>
+            <!-- navigation -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home"><img src="./assets/img/Tlist-Icon-png.png" width="16" height="16" alt="tlist icon"></a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+                    <li><a href="#all-teas">Teas</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a class="ui-btn-active" href="#local-gmap">Locals</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+            
+        </div>
+        <!-- end google map of local tea shops -->
+
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRjoLq4xJYjZYvzHtwLo90ALS0nRyHjIM&region=GB"></script>
+<script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
 <script src="./js/touch-punch.js"></script>
 <script src="./js/main.js"></script>
 
 </body>
 </html>
+
+
+<!-- <main class="single-tea">
+    <h2> </h2>
+    <article class="single-tea__area">
+      <section class="single-tea__content">
+        <img class="single-tea__img" src="/assets/img/aromatic-close-cup-1417945.jpg" alt="aromatic jazmine tea">
+        <div class="single-tea__descriptions">
+          <h3>Description</h3>
+          <p> Yin Hao Jasmine blossom tea is recognized as the finest in the world brewing a bright cup with clean, sharp flavors. Sweet China leaves are married with fragrant flowers seven times during the evening when the jasmine blossoms open.</p>
+          <p>Green tea contains less than a quarter the amount of caffeine per cup than in a similar-sized cup of coffee</p>
+          <ul>
+            <h3>ingredients</h3>
+            <li> Rare Yin Hao green tea leaves</li>
+            <li> Jasmine blossoms</li>
+          </ul>
+          <h3>Instructions</h3>
+          <p> Steeping green tea is easy. Simply heat fresh, filtered water just short of boiling. Then pour water over tea and steep for 1-3 minutes (if using a tea bag) or 2-4 minutes (if using full-leaf tea.)</p>
+        </div>
+      </section>
+    </article>
+  </main>
+   -->
+  

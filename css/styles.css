@@ -1,6 +1,46 @@
 body {
     height: 90vh;
 }
+.home-page {
+    background-image: url("../assets/img/chinese-container-herbal-165228.jpg");
+    height: 30vh;
+    background-size: cover;
+}
+.jumbotron {
+    padding: 2% 5%;
+    background-color: lightblue;
+}
+.lead,
+.display-txt {
+    text-align: center;
+    color: #fff;
+    text-shadow: none;
+}
+.card {
+    padding: 2%;
+}
+.card-img-top {
+    width: -moz-available;
+    width: available;
+    max-width: 100%;
+    max-height: 100%;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    padding-bottom: 0;
+}
+.popular-tea-area {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* old and unvetted section */
 article,
 .faq-area {
     padding: 1%;
@@ -14,19 +54,6 @@ form {
     margin: 5% auto;
 }
 
-.welcome-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.popular-tea-area {
-    display: flex;
-    flex-direction: row;
-    margin: 5% auto;
-    justify-content: center;
-}
-
 .tea-cards {
     display: flex;
     justify-content: space-evenly;
@@ -35,17 +62,12 @@ form {
     width: fill-available;
 }
 
-.footer {
-    height: 5vh;
-    background-color: grey;
-}
-
-    @media only screen and (max-width: 37.5rem) {
+@media only screen and (max-width: 37.5rem) {
     .popular-tea-area ,
     .welcome-section {
         flex-direction: column;
     }
-  }
+}
   @media only screen and (max-width: 70.25rem) {
     .popular-tea-area {
         flex-direction: column;
